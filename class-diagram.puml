@@ -1,0 +1,35 @@
+@startuml
+
+class Customer <<entity>>{
+    + name : String
+    + location : String
+    + rate()
+    + order()
+    + orders : [order()]
+    + rates : [rate()]
+}
+
+class Order <<entity>>{
+    + coffeeshop : String
+    + customer : String
+    + product : String
+    + location : String
+}
+
+class Rate <<entity>>{
+    + coffeeshop : String
+    + customer : String
+    + product : String
+}
+
+class CoffeeShop <<entity>>{
+    + name : String
+}
+
+Order -up-|> Customer
+Rate -up-|> Customer
+CoffeeShop -up-|> Rate
+CoffeeShop -up-|> Order
+
+
+@enduml
