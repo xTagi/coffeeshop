@@ -1,13 +1,15 @@
 {
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "flatted": "^3.2.7"
   },
   "name": "coffeeshop",
   "version": "1.0.0",
   "description": "CoffeeShopProject",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon **/logs/** '*.json'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Taragay Akgul <akgultaragay@gmail.com>",

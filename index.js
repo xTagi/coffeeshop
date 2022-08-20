@@ -1,5 +1,6 @@
 const Customer = require('./customer')
 const CoffeeShop = require('./coffeeshop')
+const db = require('./database')
 
 const colors = require('colors')
 
@@ -20,6 +21,13 @@ function printOrderHistory(customer) {
     customer.orders.forEach(printOrder)
 }
 
+db.save('Customers' , [mert])
+
+const customers = db.load('customers')
+
+//console.log(customers)
+//customers.forEach(printOrderHistory)
+
 printOrderHistory(mert)
 
-console.log(`${rate1.customer.name} rated ${rate1.product}. The rate is 8.5/10`)
+//console.log(`${rate1.customer.name} rated ${rate1.product}. The rate is 8.5/10`)
