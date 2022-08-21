@@ -1,6 +1,11 @@
 class CoffeeShop{
-    constructor(name){
+    constructor(name, product){
         this.name = name
+        this.product = product
+    }
+
+    static create ({name, product}) {
+        return new CoffeeShop(name, product)
     }
 }
 

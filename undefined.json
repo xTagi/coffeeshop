@@ -1,0 +1,51 @@
+[[
+  "1",
+  "2"
+],{
+  "id": "3",
+  "name": "4",
+  "location": "5",
+  "orders": "6",
+  "rates": "7"
+},{
+  "id": "8",
+  "name": "9",
+  "location": "10",
+  "orders": "11",
+  "rates": "12"
+},"9a96e2d1-ded2-4ea4-8ea6-a37e1e1d0524","Mert","Nene Hatun",[
+  "13",
+  "14",
+  "15"
+],[
+  "16"
+],"247d1a7c-436f-407f-83cb-ef8546c17035","tugsad","Leipzig",[
+  "17"
+],[],{
+  "coffeeshop": "18",
+  "customer": "1",
+  "product": "19",
+  "location": "5"
+},{
+  "coffeeshop": "18",
+  "customer": "1",
+  "product": "20",
+  "location": "21"
+},{
+  "coffeeshop": "18",
+  "customer": "1",
+  "product": "22",
+  "location": "23"
+},{
+  "coffeeshop": "18",
+  "customer": "1",
+  "product": "19"
+},{
+  "coffeeshop": "18",
+  "customer": "2",
+  "product": "24",
+  "location": "10"
+},{
+  "name": "25",
+  "product": "26"
+},"Caramel Machiato","Cold Brew","InoPark","Cool Lime","Karadigin Deresi","Espresso","Atlantis","Filter Coffee"]
