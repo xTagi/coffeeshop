@@ -1,5 +1,5 @@
 const baseDatabase = require('./base-database')
-const Customer = require('../customer')
+const Customer = require('../model/customer')
 
 class CustomerDatabase extends baseDatabase {
     findByName(name) {

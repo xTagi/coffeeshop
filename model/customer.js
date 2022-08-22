@@ -1,14 +1,14 @@
 const Order = require('./order')
-const Rate = require('./rate')
+const Rate = require('../rate')
 const uuid = require('uuid')
 
 class Customer{
-    constructor(id = uuid.v4(),name, location, orders = []){
+    constructor(id = uuid.v4(),name, location, orders = [], rates = []){
         this.id = id
         this.name = name
         this.location = location
         this.orders = orders
-        this.rates = []
+        this.rates = rates
     }
 
     order(coffeeshop, product, location){
@@ -27,8 +27,8 @@ class Customer{
         return rate
     }
 
-    static create({id, name, location, orders}) {
-        return new Customer(id, name, location, orders)
+    static create({id, name, location, orders, rates}) {
+        return new Customer(id, name, location, orders, rates)
     }
 
 }
