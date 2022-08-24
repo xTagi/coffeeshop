@@ -1,17 +1,120 @@
-[{
-  "id": "1",
-  "name": "2",
-  "location": "3",
-  "orders": "4",
-  "rates": "5"
-},"b5ef135f-e4b2-4364-a8be-277176dbda94","Mert","Nene Hatun",[
-  "6"
-],[],{
-  "coffeeshop": "7",
-  "customer": "0",
-  "product": "8",
-  "location": "3"
+[[
+  "1",
+  "2",
+  "3",
+  "4"
+],{
+  "id": "5",
+  "name": "6",
+  "location": "7",
+  "orders": "8",
+  "rates": "9"
 },{
-  "name": "9",
-  "product": "8"
-},"Filter Coffee","Atlantis"]
+  "id": "10",
+  "name": "11",
+  "location": "12",
+  "orders": "13",
+  "rates": "14"
+},{
+  "id": "15",
+  "name": "16",
+  "location": "17",
+  "orders": "18",
+  "rates": "19"
+},{
+  "id": "20",
+  "name": "21",
+  "location": "22",
+  "orders": "23",
+  "rates": "24"
+},"f3c6c4ae-3ca7-4b5d-91db-9faddd67d8a0","Mert","Samsun",[
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+],[],"7fa0a966-259c-4b07-b342-fa5dccec3f7b","Tugsad","Leipzig",[
+  "30"
+],[],"eab5664b-1bbb-49a5-a220-efb588dba1f1","Orkun","Ankara",[
+  "31"
+],[],"dad2f6f2-5e31-434a-9bfe-6fd6d6aa5540","Taragay","Berlin",[],[],{
+  "coffeeshop": "32",
+  "customer": "33",
+  "product": "34",
+  "location": "7"
+},{
+  "coffeeshop": "35",
+  "customer": "36",
+  "product": "37",
+  "location": "7"
+},{
+  "coffeeshop": "35",
+  "customer": "38",
+  "product": "37",
+  "location": "39"
+},{
+  "coffeeshop": "35",
+  "customer": "40",
+  "product": "37",
+  "location": "39"
+},{
+  "coffeeshop": "41",
+  "customer": "1",
+  "product": "37",
+  "location": "39"
+},{
+  "coffeeshop": "42",
+  "customer": "43",
+  "product": "34",
+  "location": "12"
+},{
+  "coffeeshop": "42",
+  "customer": "44",
+  "product": "34",
+  "location": "17"
+},{
+  "name": "45",
+  "product": "34"
+},{
+  "id": "5",
+  "name": "6",
+  "location": "7",
+  "orders": "8",
+  "rates": "9"
+},"Cold Brew","Starbucks",{
+  "id": "5",
+  "name": "6",
+  "location": "7",
+  "orders": "8",
+  "rates": "9"
+},"White Mocha",{
+  "id": "5",
+  "name": "6",
+  "location": "7",
+  "orders": "8",
+  "rates": "9"
+},"Nene Hatun",{
+  "id": "5",
+  "name": "6",
+  "location": "7",
+  "orders": "8",
+  "rates": "9"
+},{
+  "name": "45",
+  "product": "34"
+},{
+  "name": "45",
+  "product": "34"
+},{
+  "id": "10",
+  "name": "11",
+  "location": "12",
+  "orders": "13",
+  "rates": "14"
+},{
+  "id": "15",
+  "name": "16",
+  "location": "17",
+  "orders": "18",
+  "rates": "19"
+},"Atlantis"]

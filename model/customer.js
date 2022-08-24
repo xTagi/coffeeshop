@@ -11,7 +11,7 @@ class Customer{
         this.rates = rates
     }
 
-    order(coffeeshop, product, location){
+    order(coffeeshop, product, location) {
         const order = new Order(coffeeshop, this, product, location)
         
         this.orders.push(order)

@@ -15,8 +15,8 @@ mert.order(atlantis, atlantis.product,mert.location)
 tugsad.order(atlantis, atlantis.product,tugsad.location)
 orkun.order(atlantis, atlantis.product, orkun.location)
 
-customerDatabase.save[mert, tugsad, orkun]
-coffeeshopDatabase.save[atlantis]
+customerDatabase.save([mert, tugsad, orkun])
+coffeeshopDatabase.save([atlantis])
 
 const tagi = Customer.create({name: 'Taragay', location: 'Berlin'})
 customerDatabase.insert(tagi)

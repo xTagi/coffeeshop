@@ -5,13 +5,12 @@ const baseDatabase = require('./database/base-database')
 const printOrderHistory = require('./lib/print-order-history')
 const printRateHistory = require('./lib/print-rate-history')
 
-const Mert = customerDatabase.findByName('name', 'Mert')
-const Tugsad = customerDatabase.findByName('name', 'Tugsad')
-const Atlantis = coffeeshopDatabase.findByCoffeeShopName('name', 'Atlantis')
+const mert = customerDatabase.findByName('Mert')
+const tugsad = customerDatabase.findByName('Tugsad')
+const atlantis = coffeeshopDatabase.findByCoffeeShopName('Atlantis')
 
-Mert.order(Atlantis,Atlantis.product,'Nene Hatun')
-customerDatabase.update(Mert)
 
-printOrderHistory(Mert)
+mert.order(atlantis, 'White Mocha', 'Nene Hatun')
+customerDatabase.update(mert)
 
-console.log(customerDatabase.findBy('location', 'Nene Hatun'))
+printOrderHistory(mert)
