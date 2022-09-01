@@ -15,13 +15,21 @@ mert.order(atlantis, atlantis.product,mert.location)
 tugsad.order(atlantis, atlantis.product,tugsad.location)
 orkun.order(atlantis, atlantis.product, orkun.location)
 
-customerDatabase.save([mert, tugsad, orkun])
-coffeeshopDatabase.save([atlantis])
+async function main() {
+    try {
+        await customerDatabase.save[mert, tugsad, orkun]
+        await coffeeshopDatabase.save[atlantis]
+        const tagi = Customer.create({name: 'Taragay', location: 'Berlin'})
+        await customerDatabase.insert(tagi)
+        const customers = await customerDatabase.load()
+        customers.forEach(printOrderHistory)
+    } catch (e) {
+        return console.log(e)
+    }
+}
 
-const tagi = Customer.create({name: 'Taragay', location: 'Berlin'})
-customerDatabase.insert(tagi)
+main()
 
-const customers = customerDatabase.load()
 
-customers.forEach(printOrderHistory)
+
 
